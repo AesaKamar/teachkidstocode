@@ -1,0 +1,7 @@
+{
+    "rules": {
+        "strict": "error",
+        "no-redeclare":"warn",
+        "valid-jsdoc":"warn"
+    }
+}
