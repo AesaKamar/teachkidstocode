@@ -68,7 +68,7 @@ rounded_random_number_between_0_and_100
 // More practice binding variables
 //=================================================================
 // Lets bind some more variables
-// Uncomment the line below and set the let equal to something! (Remember to put it in quotes!)
+// Uncomment the line below and set a string value for my_pet_cats_name! (Remember to put it in quotes!)
 
 // let my_pet_cats_name = 
 my_pet_cats_name

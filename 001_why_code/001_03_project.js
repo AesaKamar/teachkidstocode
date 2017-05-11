@@ -1,3 +1,5 @@
+"use strict";
+const testing = require("../utilis/testing")
 //=================================================================
 // Lets do some practice
 //=================================================================
@@ -45,38 +47,44 @@ let this_has_a_length_of_17 = `one
 
 // This line won't work. we can only get the length of strings and collections
 // Comment out the line below since it hs an error!
-let numbers_dont_have_lengths = 1.length 
+// let numbers_dont_have_lengths = 1.length 
 
 
 //Now you try! Make let's to hold the lengths of each of the 3 sentences
 // Insert a breakpoint and run the code in the debug tab on the left (or you can write the keyword 'debugger')
 //      (Press the green play button to launch the code)
-let apple_length        = '???'
-let cantaloupe_length   = '???'
-let avocado_length      = '???'
+let apple_length        = 0 //'???'
+let cantaloupe_length   = 0 //'???'
+let avocado_length      = 0 //'???'
 
 
 ///> This is a test statement
-// if ( apple_length !== 739 ) { console.error("apple_length should be 739")}
-// else{ console.info(apple_length)}
-// if ( cantaloupe_length !== 681 ) { console.error("cantaloupe_length should be 681")}
-// else{ console.info(cantaloupe_length)}
-// if ( avocado_length !== 685 ) { console.error("avocado_length should be 685")}
-// else{ console.info(avocado_length)}
-eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('2(5!==a){0.1("5 6 8 a")}9{0.7(5)}2(3!==c){0.1("3 6 8 c")}9{0.7(3)}2(4!==b){0.1("4 6 8 b")}9{0.7(4)}',13,13,'console|error|if|cantaloupe_length|avocado_length|apple_length|should|info|be|else|739|685|681'.split('|'),0,{}))
+testing.assertEqual(apple_length, 'apple_length', sentence_apple.length,  (act, exp) => act === exp)
+testing.assertEqual(cantaloupe_length, 'cantaloupe_length', sentence_cantaloupe.length, (act, exp) => act === exp)
+testing.assertEqual(avocado_length, 'avocado_length', sentence_avocado.length, (act, exp) => act === exp)
 ///> It makes sure your answer is correct
 debugger
 
 //=================================================================
-// Do some interesting operations to compare our sentencds
+// Do some interesting operations to compare our sentences
 //=================================================================
 // If you've made it this far, you have the correct values for the lengths of the 3 sentences
 // Replace the question marks with some math that will yield the correct values
 // You cam type the name of the let you used earlier in order to reference its value
 // For example, if you typed 'apple_length', you'll have access to the same exact let value
 //      that you declared earlier in the program
-let the_difference_between_the_number_of_characters_in_avocados_and_apples = '???'
 
-let the_total_number_of_characters_in_all_3_sentences = '???'
+let the_difference_between_the_number_of_characters_in_avocados_and_apples = 0 //'???'
+let the_total_number_of_characters_in_all_3_sentences = 0 //'???'
+let the_average_number_of_characters_in_each_sentence = 0 //'???'
 
-let the_average_number_of_characters_in_each_sentence = '???'
+///> This is a test statement
+testing.assertEqual(the_difference_between_the_number_of_characters_in_avocados_and_apples, 'the_difference_between_the_number_of_characters_in_avocados_and_apples', sentence_apple.length - sentence_avocado.length, (act, exp) => Math.max(act) === Math.max(exp))
+testing.assertEqual(the_total_number_of_characters_in_all_3_sentences, 'the_total_number_of_characters_in_all_3_sentences', sentence_apple.length + sentence_avocado.length + sentence_cantaloupe.length, (act, exp) => act === exp)
+testing.assertEqual(the_average_number_of_characters_in_each_sentence, 'the_average_number_of_characters_in_each_sentence', (sentence_avocado.length + sentence_apple.length + sentence_cantaloupe.length) / 3.0 , (act, exp) => Math.abs(exp-act)<=3.01)
+///> It makes sure your answer is correct
+
+//=================================================================
+// Great, if all tests have passed, you are done~
+//=================================================================
+debugger
