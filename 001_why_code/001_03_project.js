@@ -46,23 +46,33 @@ let this_has_a_length_of_17 = `one
     two three`.length
 
 // This line won't work. we can only get the length of strings and collections
-// Comment out the line below since it hs an error!
-// let numbers_dont_have_lengths = 1.length 
+// Comment out the line below since it has an error!
+let numbers_dont_have_lengths = 1.length 
+
+// Try using Intellisense to see how to use the .length property
+// Remember, press 'ctrl + space' and select the word you want to autocomplete
+//      Or you can use 'tab' as an autocomplete shortcut
+"A string".le
 
 
 //Now you try! Make let's to hold the lengths of each of the 3 sentences
-// Insert a breakpoint and run the code in the debug tab on the left (or you can write the keyword 'debugger')
+// Insert a breakpoint and run the code in the debug tab on the left 
+//      (you can insert a breakpoint by clicking to the left of the line numbers to make a red dot appear)
+//      (or you can write the keyword 'debugger' somewhere)
 //      (Press the green play button to launch the code)
 let apple_length        = 0 //'???'
 let cantaloupe_length   = 0 //'???'
 let avocado_length      = 0 //'???'
 
 
-///> This is a test statement
+///%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%> This is a test statement
 testing.assertEqual(apple_length, 'apple_length', sentence_apple.length,  (act, exp) => act === exp)
 testing.assertEqual(cantaloupe_length, 'cantaloupe_length', sentence_cantaloupe.length, (act, exp) => act === exp)
 testing.assertEqual(avocado_length, 'avocado_length', sentence_avocado.length, (act, exp) => act === exp)
-///> It makes sure your answer is correct
+///%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%> It makes sure your answer is correct
+// Its something your instructor added to help validate that you've arrived at the correct answer
+// As a convention, whenever you see a bunch of %%%%%, it wraps a test block
+// When you run the code, you'll get some output about whether you have the right answer or not
 debugger
 
 //=================================================================
@@ -78,11 +88,11 @@ let the_difference_between_the_number_of_characters_in_avocados_and_apples = 0 /
 let the_total_number_of_characters_in_all_3_sentences = 0 //'???'
 let the_average_number_of_characters_in_each_sentence = 0 //'???'
 
-///> This is a test statement
+///%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%> This is a test statement
 testing.assertEqual(the_difference_between_the_number_of_characters_in_avocados_and_apples, 'the_difference_between_the_number_of_characters_in_avocados_and_apples', sentence_apple.length - sentence_avocado.length, (act, exp) => Math.max(act) === Math.max(exp))
 testing.assertEqual(the_total_number_of_characters_in_all_3_sentences, 'the_total_number_of_characters_in_all_3_sentences', sentence_apple.length + sentence_avocado.length + sentence_cantaloupe.length, (act, exp) => act === exp)
 testing.assertEqual(the_average_number_of_characters_in_each_sentence, 'the_average_number_of_characters_in_each_sentence', (sentence_avocado.length + sentence_apple.length + sentence_cantaloupe.length) / 3.0 , (act, exp) => Math.abs(exp-act)<=3.01)
-///> It makes sure your answer is correct
+///%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%> It makes sure your answer is correct
 
 //=================================================================
 // Great, if all tests have passed, you are done~

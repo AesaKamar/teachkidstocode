@@ -28,7 +28,7 @@
 //=================================================================
 // Practicing the 'let' statement
 //=================================================================
-// VS Code is aware of the code we're writing. It will color keywords and data accordingly
+// VS Code is "aware" of the code we're writing. It will color keywords and data accordingly
 // We can assign some data with a name by using the 'let' keyword
 let a_number = 5
 let another_number = 10.3
@@ -43,9 +43,12 @@ let names-can't contain'invalid /characters or spaces
 //==========================
 // Now you try making some declarations with the let keyword
 
-// Make a number
+// Make a number!
+// Just like you set a variable equal to something in math, try it below using the let keyword
 
-// Try adding your let value to another, and capturing it in this value y
+
+// Try adding your let value to another!
+// Add the number fi
 // Uncomment the line below!
 // let y = 
 
@@ -70,13 +73,26 @@ let names-can't contain'invalid /characters or spaces
 let hover_over_me_1 = "I should be a string"
 let hover_over_me_2 = false 
 
-// It can also be smart and infer the type after applying an expression to your data
+// It can also be smart and predict what type of data your have even after applying some expressions.
 // For example. we can add some numbers together, and Intellisense will infer that we should still have a number
 let hover_over_me_3 = (5 + 23 + 12 * 4)
 
+// Or it can infer that we will have a string
 let i_didnt_know_we_can_add_strings_together = "I guess " + "we can"
 
-// This will be very helptul later on
+// And it can keep track of what type of data we have 
+//      even after applying some operations
+// Try hovering over things!
+let five = 5
+let five_string = five.toString()
+let five_number_again = Number.parseInt(five_string)
 
 
+// Vs code can autoccomplete things that are valid for us
+// Press 'ctrl + space' ot get some hints
+fiv
 
+// It can also give you hints about what valid operations
+//      you can perform. We'll get into the '.' (dot) syntax later on
+// Try pressing 'ctrl + space' again below and figure out how to make this into a string
+five.to
