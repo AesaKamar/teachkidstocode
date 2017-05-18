@@ -3,9 +3,6 @@ const testing = require("../utilis/testing")
 //=================================================================
 // Lets do some practice
 //=================================================================
-console.info("========================================================")
-console.info("Any errors or successes in tests will show up under here")
-console.info("v======================================================v")
 
 // We are going to write three sentences up here so we can use them later on
 let sentence_apple = `In the wild, apples grow readily from seeds. However, like most perennial fruits, apples are ordinarily
