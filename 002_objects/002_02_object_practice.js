@@ -94,20 +94,20 @@ var fruit_nutrition_data = {
         protein_in_grams: 0.8
     },
     guava: {
-        weight_in_grams: 69,
-        calories: 95,
+        weight_in_grams: 55,
+        calories: 38,
         fat: {
             saturated_fat_in_grams: 0.1,
-            polyunsaturated_fat_in_grams: 0.1,
+            polyunsaturated_fat_in_grams: 0.2,
             monounsaturated_fat_in_grams: 0
         },
         cholesterol_in_milligrams: 0,
-        sodium_in_milligrams: 2,
-        potassium_in_milligrams: 195,
+        sodium_in_milligrams: 1,
+        potassium_in_milligrams: 229,
         carbohydrates: {
-            dietary_fiber_in_grams: 2.1,
-            sugar_in_grams: 6
+            dietary_fiber_in_grams: 3,
+            sugar_in_grams: 4.9
         },
-        protein_in_grams: 0.8
+        protein_in_grams: 1.4
     }
 }
