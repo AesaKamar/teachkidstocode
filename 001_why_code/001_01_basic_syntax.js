@@ -8,25 +8,36 @@
 // They should be a neutral gray color
 / These lines are counted as code because they don't have two backslashes'. 
 / Try putting the second backslash to comment this line out
-/ VS Code is trying to interpret these lines, but it can't ' understand english, so we have a bunch of errors
+/ VS Code is trying to interpret these lines as JavaScript, but it can't ' understand english, so we have a bunch of errors
+Try commenting this line out too! (use 2 backslashes at the beginning)
 
+If you put backslashes // in the middle, only things after the backslashes will be treated as comments
+// ^^^^^^^^^^^^^^^^^^^ Comment the above line out as well 
 
 //=================================================================
 // Navigating files
 //=================================================================
 // if you look to your left, you'll see a list of your files and folders.
 // VS Code can be opened on a particular folder, or on a particular file
-// Save your work with 'Ctrl + s'
-// And feel free to browse around
+// Save your work with 'Ctrl + s' and feel free to browse around
 
-// The second tab with the magnifying glass icon allows you to search for text found anywhere in the open folder
-// The third tab with the funny Y shaped symbol tracks any saved changes you've made. Don't worry, we'll explain this later!
-// The fourth tab with the crossed out bug is the debugging tab. Don't worry, we'll explain this later!
-// The fifth tab with the square is the extensions tab. It allows you to customize VS code with new functionality downloaded from online, similar an app store. 
+// Let me explain what all the big icons on the lefthand side of the screen mean. 
+// The first tab with two documents allows you to browse all the files you currently have
+//      It lists all the files and folders, just like when you open a normal explorer
+// The second tab with the magnifying glass icon allows you to search for text found anywhere in any of your files
+// The third tab with the Y shaped symbol tracks any saved changes you've made. 
+//      If you edit any files, it will show you your chnages so you have a reference to go back to
+//      Don't worry, we'll explain this later!
+// The fourth tab with the crossed out bug is the debugging tab. 
+//      It gives you tools to run and test out your code
+//      Don't worry, we'll explain this later!
+// The fifth tab with the square is the extensions tab. It allows you to customize VS code with new functionality downloaded from online
+//      Similar an app store, but everything is free
+//      Get used to it, a lot of things will be free~
 
 
 //=================================================================
-// Practicing the 'let' statement
+// Practicing holding onto some data with the 'let' statement
 //=================================================================
 // VS Code is "aware" of the code we're writing. It will color keywords and data accordingly
 // We can assign some data with a name by using the 'let' keyword

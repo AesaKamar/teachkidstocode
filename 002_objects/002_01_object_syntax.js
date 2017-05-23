@@ -1,8 +1,9 @@
 "use strict";
 const testing = require("../utilis/testing")
 const _ = require("lodash")
+
 //=================================================================
-// The simplest object
+// What is the simplest object
 //=================================================================
 // All you need are curly braces.
 let simplest_object_ever = {}
@@ -15,7 +16,7 @@ let apple = {
     // The property called 'color' is a string
     //      We've got a special plugin which highlights colors, 
     //      they're written with a `#` in front of them
-    color: '#B2222' ,
+    color: '#b22222' ,
     // The property called 'number_of_seeds' is a number
     number_I_can_eat_at_once : 3,
     // The property called 'taste_profile' is another object~
