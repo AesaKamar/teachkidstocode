@@ -1,57 +1,113 @@
 "use strict";
-const testing = require("../utilis/testing")
+const testing = require("../utils/testing")
 const _ = require("lodash")
 
 //=================================================================
 // Setting up some practice data
 //=================================================================
-/**
- * A number, or a string containing a number.
-  @typedef PropertiesHash
-  @type {object}
-  @property {string} id - an ID.
-  @property {string} name - your name.
-  @property {number} age - your age.
- */
-/**
- * @type {PropertiesHash}
- */
-let x = {
-    id: "12",
-    name: "something",
-    age: 35
-}
+// You'll be looking into nutritional values of different fruits 
 
-var crime_data_in_2015 = {
-    new_york_city:{},
-    san_francisco:{},
-    berlin:{},
-    nairobi:{
-
+var fruit_nutrition_data = {
+    apple: {
+        weight_in_grams: 182,
+        calories: 95,
+        fat: {
+            saturated_fat_in_grams: 0.1,
+            polyunsaturated_fat_in_grams: 0.1,
+            monounsaturated_fat_in_grams: 0
+        },
+        cholesterol_in_milligrams: 0,
+        sodium_in_milligrams: 2,
+        potassium_in_milligrams: 195,
+        carbohydrates: {
+            dietary_fiber_in_grams: 4.2,
+            sugar_in_grams: 19
+        },
+        protein_in_grams: 0.5
     },
-    tokyo:{},
+    orange: {
+        weight_in_grams: 96,
+        calories: 45,
+        fat: {
+            saturated_fat_in_grams: 0,
+            polyunsaturated_fat_in_grams: 0,
+            monounsaturated_fat_in_grams: 0
+        },
+        cholesterol_in_milligrams: 0,
+        sodium_in_milligrams: 0,
+        potassium_in_milligrams: 174,
+        carbohydrates: {
+            dietary_fiber_in_grams: 2.3,
+            sugar_in_grams: 9
+        },
+        protein_in_grams: 0.5
+    },
+    watermelon: {
+        weight_in_grams: 4518,
+        calories: 1371,
+        fat: {
+            saturated_fat_in_grams: 0.7,
+            polyunsaturated_fat_in_grams: 2.3,
+            monounsaturated_fat_in_grams: 1.7
+        },
+        cholesterol_in_milligrams: 0,
+        sodium_in_milligrams: 45,
+        potassium_in_milligrams: 5060,
+        carbohydrates: {
+            dietary_fiber_in_grams: 18,
+            sugar_in_grams: 280
+        },
+        protein_in_grams: 28
+    },
+    banana: {
+        weight_in_grams: 118,
+        calories: 105,
+        fat: {
+            saturated_fat_in_grams: 0.132,
+            polyunsaturated_fat_in_grams: 0.086,
+            monounsaturated_fat_in_grams: 0.038
+        },
+        cholesterol_in_milligrams: 0,
+        sodium_in_milligrams: 1,
+        potassium_in_milligrams: 422,
+        carbohydrates: {
+            dietary_fiber_in_grams: 3.1,
+            sugar_in_grams: 14.43
+        },
+        protein_in_grams: 1.29
+    },
+    kiwi: {
+        weight_in_grams: 69,
+        calories: 95,
+        fat: {
+            saturated_fat_in_grams: 0.1,
+            polyunsaturated_fat_in_grams: 0.1,
+            monounsaturated_fat_in_grams: 0
+        },
+        cholesterol_in_milligrams: 0,
+        sodium_in_milligrams: 2,
+        potassium_in_milligrams: 195,
+        carbohydrates: {
+            dietary_fiber_in_grams: 2.1,
+            sugar_in_grams: 6
+        },
+        protein_in_grams: 0.8
+    },
+    guava: {
+        weight_in_grams: 69,
+        calories: 95,
+        fat: {
+            saturated_fat_in_grams: 0.1,
+            polyunsaturated_fat_in_grams: 0.1,
+            monounsaturated_fat_in_grams: 0
+        },
+        cholesterol_in_milligrams: 0,
+        sodium_in_milligrams: 2,
+        potassium_in_milligrams: 195,
+        carbohydrates: {
+            dietary_fiber_in_grams: 2.1,
+            sugar_in_grams: 6
+        },
+        protein_in_grams: 0.8
+    }
 }
-var new_york_city = {
-    total_number_of_crimes: 10,
-    area_in_square_km: 10,
-    average_salary_in_usd: 10,
-    median_salary_in_usd: 10,
-    cost_of_big_mac_in_usd: 10
-}
-
-var san_francisco = {
-
-}
-
-var berlin = {
-
-}
-
-var nairobi = {
- 
-}
-
-var tokyo = {
-
-}
-

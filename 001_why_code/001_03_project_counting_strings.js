@@ -1,5 +1,5 @@
 "use strict";
-const testing = require("../utilis/testing")
+const testing = require("../utils/testing")
 //=================================================================
 // Lets do some practice
 //=================================================================
@@ -44,12 +44,12 @@ let this_has_a_length_of_17 = `one
 
 // This line won't work. we can only get the length of strings and collections
 // Comment out the line below since it has an error!
-let numbers_dont_have_lengths = 1.length 
+// let numbers_dont_have_lengths = 1.length 
 
 // Try using Intellisense to see how to use the .length property
 // Remember, press 'ctrl + space' and select the word you want to autocomplete
 //      Or you can use 'tab' as an autocomplete shortcut
-"A string".le
+// "A string".le
 
 
 //Now you try! Make let's to hold the lengths of each of the 3 sentences

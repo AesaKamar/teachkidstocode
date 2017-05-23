@@ -1,5 +1,5 @@
 "use strict";
-const testing = require("../utilis/testing")
+const testing = require("../utils/testing")
 const _ = require("lodash")
 
 //=================================================================
