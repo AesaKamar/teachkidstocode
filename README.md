@@ -4,7 +4,7 @@ Learning Functional JavaScript
 
 ## Course Structure
 This course is structured in a series of modules
-Each module is denoted by a folder which looks like `XXX_Module`
+Each module is denoted by a folder which looks like `XXX_module_name`
 Within each folder, you'll find:
   - Presentation with reference materials
   - Practice exercises and lessons to work through
@@ -17,10 +17,10 @@ It contains all of the code, programs, and and environment you'll need to immedi
 
 [Download the Virtual Machine specially built for this course here](https://drive.google.com/open?id=0BwkMe7DRbc4vV1pPaTcwLW1FYjQ) `v05232017`
 
-The download is approximately 3gb in size
+The download is approximately 3Gb in size
 
 
-Suggested system specs to allocate to your VM are ath least:
+Suggested system specs to allocate to your VM are at least:
   - 1 core (cpu)
   - 1 Gb of RAM (memory)
   - 150 Mb of vRAM (video memory)
