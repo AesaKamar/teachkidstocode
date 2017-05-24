@@ -1,7 +1,6 @@
 module.exports = {
     assertEqual: assertEqual,
-    assertThat: assertThat,
-    getLoggingContext: getLoggingContext
+    assertThat: assertThat
 }
 const _ = require('lodash')
 const fs = require('fs')
@@ -76,8 +75,12 @@ function assertThat(value, variableToTestName, assertion, hint = "", fileToLogTo
  * @param {boolean} status
  */
 function getLoggingContext(status, message = ""){
+    let setupfile = fs.readFileSync(__dirname + "/../SETUP.txt")
+        .toString()
+        .split('\n')
     return {
-        user: "", 
+        user_name: setupfile[2], 
+        user_email: setupfile[6],
         file_name: __stack[2]
             .getFileName()
             .split(/[\\/]/)
