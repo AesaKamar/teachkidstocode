@@ -1,4 +1,3 @@
-"use strict";
 const testing = require("../utils/testing")
 //=================================================================
 // Lets do some practice
