@@ -1,9 +1,5 @@
 
 var x
-let a_thing_can_be_a_boolean = Boolean() 
-    x = true
-    x = false
-
 let a_thing_can_be_a_number = Number() 
     x = 10
     x = 3.276
@@ -14,11 +10,6 @@ let a_thing_can_be_a_string = String()
     x = 'or single quotes'
     x = '!#^$%#!.'
     x = "82"
-
-let a_thing_can_be_an_array = Array()
-    x = ["A","Collection", "of", "Multiple", "Things"]
-    x = [ ]
-    x = [123, false, "HELLO!"]
 
 let a_thing_can_be_an_object = Object()
     x = { key: "value" }
@@ -31,6 +22,15 @@ let a_thing_can_be_an_object = Object()
             a_function: (x) => x+1,
             another_key: ["Some", "Value"]
         }
+
+let a_thing_can_be_an_array = Array()
+    x = ["A","Collection", "of", "Multiple", "Things"]
+    x = [ ]
+    x = [123, false, "HELLO!"]
+
+let a_thing_can_be_a_boolean = Boolean() 
+    x = true
+    x = false
 
 let a_thing_can_be_a_function = Function()
     x =  input  => input + ":) Hello"
