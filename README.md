@@ -13,7 +13,7 @@ Within each folder, you'll find:
 You will be provided with a Virtual Machine image running Lubuntu.
 It contains all of the code, programs, and and environment you'll need to immediately become productive.
 
-**VirtualBox is a program you can use to run Virtual Machines.** 
+**VirtualBox is a program you can use to run Virtual Machines.**  
 [Download VirtualBox here](https://www.virtualbox.org/wiki/Downloads)
 
 **We've made a virtual machine to help you get setup with this course. You can run it with VirtualBox.**  
