@@ -30,5 +30,5 @@ Suggested system specs to allocate to your VM are at least:
 ## Once you're logged into the VM for the first time
 
 - Read `~/Desktop/README.txt`
-- Open othe folder `~/Desktop/Code` in Visual Studio Code
+- Open the folder `~/Desktop/Code` in Visual Studio Code
 - Modify the file `~/Desktop/Code/SETUP.txt` with your name and email
