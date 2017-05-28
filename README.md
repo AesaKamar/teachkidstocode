@@ -1,5 +1,5 @@
 # Data Sense
-Learning Functional JavaScript
+##### Learning Functional JavaScript
 
 
 ## Course Structure
