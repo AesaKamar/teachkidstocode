@@ -112,7 +112,7 @@ let the_17th_letter_of_the_alphabet =
 
 	Creates a slice of array from start up to, but not including, end.
 
-	Examples:
+	//Examples:
 	var array = ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango'];
 
 	_.slice(array, 1, 3)
