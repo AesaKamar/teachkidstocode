@@ -190,8 +190,8 @@ olympic_swimmer_rankings[4].country
 
 // Time for some practice
 // Find the name of the woman who came in second place
-let person_in_second_places_name = ''
+let person_who_won_silvers_name = ''
 
 ///%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%> This is a test statement
-testing.assertEqual(person_in_second_places_name, 'person_in_second_places_name', _.nth(olympic_swimmer_rankings, 1).name,  (act, exp) => act === exp)
+testing.assertEqual(person_who_won_silvers_name, 'person_who_won_silvers_name', _.nth(olympic_swimmer_rankings, 1).name,  (act, exp) => act === exp)
 ///%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%> It makes sure your answer is correct
