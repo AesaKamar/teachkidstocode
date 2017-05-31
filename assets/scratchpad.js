@@ -1,3 +1,4 @@
+const _ = require('lodash')
 let an_object = {
     property : "value",
     some_value : 102 + 4,
