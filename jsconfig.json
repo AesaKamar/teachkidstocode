@@ -2,5 +2,9 @@
     "compilerOptions": {
         "target": "es6",
         "allowSyntheticDefaultImports": true
-    }
+    },
+    "include": [
+        "src",
+        "typedefs"
+    ]
 }

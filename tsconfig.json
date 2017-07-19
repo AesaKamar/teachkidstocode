@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": "./",
+        "target": "ES6",
+        "noImplicitAny": true
+    },
+    "files": [
+        "index.ts"
+    ],
+    "include": [
+        "src",
+        "typedefs"
+    ]
+}

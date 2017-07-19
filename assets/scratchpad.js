@@ -1,4 +1,4 @@
-const _ = require('lodash')
+let _ = require('lodash')
 let an_object = {
     property : "value",
     some_value : 102 + 4,
@@ -8,7 +8,6 @@ let an_object = {
 an_object.some_value //== 106
 an_object.another_value //== HELLO
 an_object["property"] //= "value"
-
 
 //=================================================================
 // Examples for lesson 3
