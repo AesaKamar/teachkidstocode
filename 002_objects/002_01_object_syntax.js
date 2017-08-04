@@ -1,3 +1,4 @@
+// @flow
 const testing = require("../utils/testing")
 const _ = require("lodash")
 

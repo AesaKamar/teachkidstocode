@@ -28,7 +28,12 @@
 			2,
 			"comma"
 		],
-		"flowtype/require-parameter-type": 2,
+		"flowtype/require-parameter-type": [
+			2,
+			{
+				"excludeArrowFunctions": "expressionsOnly"
+			}
+		],
 		"flowtype/require-valid-file-annotation": 2,
 		"flowtype/space-after-type-colon": [
 			2,

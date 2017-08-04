@@ -5,13 +5,27 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "node",
+            "name": "LaunchFlow",
+            "type": "node2",
             "request": "launch",
-            "protocol": "inspector",
-            "name": "Launch Program",
             "program": "${file}",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/babel-node",
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "internalConsole",
+            "sourceMaps": false,
+            "outFiles": [],
             "skipFiles": [
-                "node_modules/**"
+                "node_modules/**",
+                "module.js"
             ]
         }
     ]
