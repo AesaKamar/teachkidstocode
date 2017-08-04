@@ -1,6 +1,6 @@
-const _ = require("lodash")
-const M = require("monet")
-const R = require("ramda")
+// @flow
+const _ = require('lodash')
+const R = require('ramda')
 
 //=================================================================
 // Booleans
@@ -21,14 +21,13 @@ let youAreHappy = false
 let youKnowIt = false
 let youReallyWantToShowIt = false
 
-let clapYourHands = x => console.log(x)
+let clapYourHands = (x: any) => console.log(x)
 
-if (youAreHappy){
-
+if (youAreHappy) {
 }
-if(youAreHappy && youKnowIt){
-	clapYourHands("👏")
+if (youAreHappy && youKnowIt) {
+  clapYourHands('👏')
 }
-if(youAreHappy && youKnowIt && youReallyWantToShowIt){
-	clapYourHands("👏👏")
+if (youAreHappy && youKnowIt && youReallyWantToShowIt) {
+  clapYourHands('👏👏')
 }
