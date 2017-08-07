@@ -17,7 +17,7 @@ It contains all of the code, programs, and and environment you'll need to immedi
 [Download VirtualBox here](https://www.virtualbox.org/wiki/Downloads)
 
 **We've made a virtual machine to help you get setup with this course. You can run it with VirtualBox.**  
-[Download the Virtual Machine specially built for this course here](https://drive.google.com/open?id=0BwkMe7DRbc4vV1pPaTcwLW1FYjQ) `v05232017`
+[Download the Virtual Machine specially built for this course here](https://drive.google.com/open?id=0BwkMe7DRbc4vRGM2LWR2ZkhEVU0) `v08072017`
 
 The download is approximately 3Gb in size.
 
